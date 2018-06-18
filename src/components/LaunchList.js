@@ -40,6 +40,7 @@ class LaunchList extends React.Component {
     const { launches, filteredSearches } = this.state
     return(
       <div id="home-page">
+      <img src="./spacex.jpg" />
         <h1>SpaceX Launches</h1> <br/>
           <Filter handleFilter={this.handleFilter}/><br/>
           <Dropdown launches={this.state.launches}/>
