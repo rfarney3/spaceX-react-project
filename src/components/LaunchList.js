@@ -39,7 +39,7 @@ class LaunchList extends React.Component {
   render() {
     const { launches, filteredSearches } = this.state
     return(
-      <div>
+      <div id="home-page">
         <h1>SpaceX Launches</h1> <br/>
           <Filter handleFilter={this.handleFilter}/><br/>
           <Dropdown launches={this.state.launches}/>
